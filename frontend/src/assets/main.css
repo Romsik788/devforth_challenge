@@ -1,0 +1,177 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.dice-section {
+  text-align: center;
+  min-width: 600px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 2px;
+  padding: 20px 0px;
+}
+
+.bottom-section {
+  display: flex;
+  column-gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.prices-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 2px;
+  padding: 20px;
+}
+
+.warning-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.prices-section h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.prices-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.prices-section ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices-section ul li span {
+  font-weight: bold;
+}
+
+.highlight {
+  font-weight: bold;
+  color: red;
+}
+
+.betting-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bet-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 2px;
+  padding: 20px;
+}
+
+.bet-section h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bet-section input {
+  width: 50px;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bet-amount {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.roll-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.balance-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 2px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dice {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 48px;
+  height: 60px;
+}
+
+.die {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.question-mark {
+  font-size: 36px;
+  color: #999;
+}
+
+.rolling {
+  font-size: 24px;
+  color: #007bff;
+}
+
