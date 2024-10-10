@@ -1,5 +1,6 @@
 # Requirements
 Python 3.11 and above
+
 Node 20.x and above
 # Part 1. Develop test app 
 Install Python dependencies:
@@ -30,8 +31,11 @@ python part2.py
 ```
 # Answers to questions
 Q: Answer to the question of what RTP will be achieved when a user plays with odds mentioned on screenshots
+
 A: ~166%
+
 Q: Provide new odds for each of 4 combinations to get RTP equal to 95%.
+
 A: One of the options:
 ```
 Balut: 2.286350974930362
