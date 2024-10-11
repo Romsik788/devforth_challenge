@@ -3,6 +3,7 @@ Python 3.11 and above
 
 Node 20.x and above
 # Part 1. Develop test app 
+## Run backend app
 Install Python dependencies:
 ```bash
 pip install -r  backend\requirements.txt
@@ -11,6 +12,7 @@ Run backend app:
 ```bash
 python backend\main.py
 ```
+## Run frontend app
 Cd to frontend folder:
 ```bash
 cd frontend
