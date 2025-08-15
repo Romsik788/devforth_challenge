@@ -24,7 +24,7 @@ class DiceGameLogic:
             return CombinationCoef.STRAIGHT
         if unique_values == 2 and (max_count == 3 or max_count == 2):
             return CombinationCoef.FULL_HOUSE
-        if max_count == 2:
+        if max_count >= 2:
             return CombinationCoef.PAIR
         return CombinationCoef.OTHER
 
@@ -70,3 +70,4 @@ def task_two():
 if __name__ == "__main__":
     task_one()
     task_two()
+
